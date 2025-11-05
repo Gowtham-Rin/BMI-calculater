@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./Assets/gymimg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 80px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: bisque;
+
+
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+input{
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background: linear-gradient(180deg,gray,white,beige);
+    color: black;
+    font-weight: bolded;
+    transform: translate(50% ,-50%);
+    
+
+
+}
